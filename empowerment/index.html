@@ -9,21 +9,21 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/renati.css">
+    <link rel="stylesheet" type="text/css" href="/css/renati.css">
 
 </head>
 
 <body>
-    <?php include('inc/nav.htm'); ?>
+    {% include nav.htm %}
     <div class="container">
 
         <div class="banner nomargin">
-            <div class="watermark"><img class="swirl" src="images/watermark.png" alt="" /></div>
-            <img class="img-responsive" src="images/banner.jpg" alt="" />
+            <div class="watermark"><img class="swirl" src="/images/watermark.png" alt="" /></div>
+            <img class="img-responsive" src="/images/banner.jpg" alt="" />
         </div>
 
 
-    
+
 
         <div class="row">
             <div class="container">
@@ -33,16 +33,16 @@
                   At the  Renati Group, we believe a company can only be as <strong>strong</strong> and successful  as its <strong>employees</strong>. Through their <strong>commitment</strong> and dedication,  business <strong>excellence</strong> is maintained and company <strong>growth</strong> can be  achieved.</p>
                     <p>Since  inception, <strong>group policy</strong> has been that <strong>all</strong> employees, regardless  of <strong>job title</strong> or <strong>position</strong>, share in the monthly <strong>profits</strong> of  their respective company. The <strong>Zivuse Trust </strong>was established to provide <strong>employees</strong> of the Renati Group and its subsidiaries with an <strong>investment vehicle</strong> to  further share in the Group&rsquo;s <strong>income</strong> and <strong>capital growth</strong>. It is the  Trust&rsquo;s <strong>mandate</strong> to ensure all employees make <strong>adequate</strong> provision  for retirement and have the means to provide an <strong>education</strong> to their  children. </p>
                     <p>Management is <strong>confident</strong> that the Zivuse Trust will  play an <strong>integral</strong> role in the future <strong>growth </strong>of the Renati Group  and provide great, <strong>long-term</strong> financial benefits and <strong>security</strong> for  Renati Group employees.</p>
-                </div>            
+                </div>
                 <div class="col-md-4 col-md-offset-1">
-                    
+
                 </div>
             </div>
         </div>
         <p class="clearfix"></p>
         <div class="row">
             <div class="container">
-              <div class="col-md-7"><img class="pull-right" src="images/zivuse.png" alt="Zivuse Trust"/>
+              <div class="col-md-7"><img class="pull-right" src="/images/zivuse.png" alt="Zivuse Trust"/>
 
                 <h3>Beneficiaries of the Trust </h3>
                 <ul>
@@ -61,19 +61,19 @@
                   </p>
                 <h3>Compliance </h3>
                   <p>The  Board of Trustees manage the Trust, in accordance with the <strong>terms and  conditions</strong> of the Trust Deed and South African <strong>legislation</strong> and laws.  The Board of Trustees is comprised of representatives of each <strong>beneficiary</strong> group, with the chairman <strong>alternating</strong> on an annual basis.</p>
-                  
-                </div>            
+
+                </div>
                 <div class="col-md-4 col-md-offset-1">
                  </div>
             </div>
         </div>
-        
+
         <div class="row companies">
-            <?php include('inc/companies.htm'); ?>
+            {% include companies.htm %}
         </div>
         <div class="row footer">
             <div class="container">
-                <?php include('inc/footer.htm'); ?>
+                {% include footer.htm %}
             </div>
         </div>
 

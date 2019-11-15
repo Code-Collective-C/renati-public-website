@@ -9,17 +9,17 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/renati.css">
+    <link rel="stylesheet" type="text/css" href="/css/renati.css">
 
 </head>
 
 <body>
-    <?php include('inc/nav.htm'); ?>
+    {% include nav.htm %}
     <div class="container">
 
         <div class="banner nomargin">
-            <div class="watermark"><img class="swirl" src="images/watermark.png" alt="" /></div>
-            <img class="img-responsive" src="images/banner.jpg" alt="" />
+            <div class="watermark"><img class="swirl" src="/images/watermark.png" alt="" /></div>
+            <img class="img-responsive" src="/images/banner.jpg" alt="" />
             <div class="mission ">AS A GROUP RENATI BELIEVES IN BEING PROACTIVE AND INNOVATIVE IN THE WAY IT CONDUCTS BUSINESS.</div>
         </div>
 
@@ -37,18 +37,18 @@
             <div class="container">
                 <div class="blockholder">
                     <div class="col-md-4 abox">
-                        <div class="aintro"><img class="ico pull-left" src="images/about.png" alt="" />About us</div>
-                        <div class="ainfo"> The Renati Group was established in <strong>2014</strong> with the intention of making a <strong>difference</strong> in the petroleum industry by introducing a more <strong>personal</strong> and <strong>technology-driven</strong> way of doing business through a range of <strong>unique</strong> product offerings.<a href="about.php"><img class="pull-right info" src="images/more.png" alt="more info" /></a>
+                        <div class="aintro"><img class="ico pull-left" src="/images/about.png" alt="" />About us</div>
+                        <div class="ainfo"> The Renati Group was established in <strong>2014</strong> with the intention of making a <strong>difference</strong> in the petroleum industry by introducing a more <strong>personal</strong> and <strong>technology-driven</strong> way of doing business through a range of <strong>unique</strong> product offerings.<a href="/about/"><img class="pull-right info" src="/images/more.png" alt="more info" /></a>
                         </div>
                     </div>
                     <div class="col-md-4 abox">
-                        <div class="aintro"><img class="ico pull-left" src="images/group.png" alt="" />Group companies</div>
-                        <div class="ainfo"> At Renati Group we believe in the famous adage <strong>&lsquo;action is the foundational key to all success&rsquo;, </strong>and as such are always looking to further <strong>improve</strong> and <strong>innovate</strong> our services to provide <strong>quality</strong> experiences our clients will remember.<a href="companies.php"><img class="pull-right info" src="images/more.png" alt="more info" /></a>
+                        <div class="aintro"><img class="ico pull-left" src="/images/group.png" alt="" />Group companies</div>
+                        <div class="ainfo"> At Renati Group we believe in the famous adage <strong>&lsquo;action is the foundational key to all success&rsquo;, </strong>and as such are always looking to further <strong>improve</strong> and <strong>innovate</strong> our services to provide <strong>quality</strong> experiences our clients will remember.<a href="/companies/"><img class="pull-right info" src="/images/more.png" alt="more info" /></a>
                         </div>
                     </div>
                     <div class="col-md-4 abox">
-                        <div class="aintro"><img class="ico pull-left" src="images/team.png" alt="" />Our team</div>
-                        <div class="ainfo"> You&rsquo;re only as good as the <strong>sum of your parts</strong> and at Renati Group we&rsquo;re proud to have a world-class <strong>team of professionals </strong>on our side, continually applying their business savvy and industry <strong>know-how</strong> to the <strong>benefit</strong> of our clients.<a href="team.php"><img class="pull-right info" src="images/more.png" alt="more info" /></a>
+                        <div class="aintro"><img class="ico pull-left" src="/images/team.png" alt="" />Our team</div>
+                        <div class="ainfo"> You&rsquo;re only as good as the <strong>sum of your parts</strong> and at Renati Group we&rsquo;re proud to have a world-class <strong>team of professionals </strong>on our side, continually applying their business savvy and industry <strong>know-how</strong> to the <strong>benefit</strong> of our clients.<a href="/team/"><img class="pull-right info" src="/images/more.png" alt="more info" /></a>
                         </div>
                     </div>
                     <span class="clearfix"></span>
@@ -57,11 +57,11 @@
 
         </div>
         <div class="row companies">
-            <?php include('inc/companies.htm'); ?>
+            {% include companies.htm %}
         </div>
         <div class="row footer">
             <div class="container">
-                <?php include('inc/footer.htm'); ?>
+                {% include footer.htm %}
             </div>
         </div>
 
