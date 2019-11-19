@@ -1,198 +1,197 @@
-body { 
-    padding-top: 90px;
-    font-size: 16px;
+body {
+  padding-top: 90px;
+  font-size: 16px;
 }
 .banner {
-    position: relative;
+  position: relative;
 }
 .watermark {
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    right: 0;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
 }
 .col-sm-3.logos {
-	text-align: center;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
-.swirl {
-	max-width: 500px;
-}
+  .swirl {
+    max-width: 500px;
+  }
 }
 @media screen and (max-width: 990px) {
-.swirl {
-	opacity: 0.5;
+  .swirl {
+    opacity: 0.5;
     filter: alpha(opacity=50);
+  }
+  .decoration {
+    max-height: 150px;
+    background-size: cover;
+  }
 }
-    .decoration {
-        max-height: 150px;
-        background-size: cover;
-        
-    }
+@media only screen and (max-width: 768px) {
+  .navbar-collapse.collapse {
+    border-color: white;
+    background-color: #dadada;
+  }
+  .nav > li > a {
+    padding-bottom: 5px;
+    padding-top: 0px;
+  }
+  .navbar-brand {
+    max-width: 260px;
+  }
 }
- @media only screen and (max-width: 768px) {
-    .navbar-collapse.collapse {
-        border-color: white;
-        background-color: #dadada;
-     }
-     .nav > li > a {
-         padding-bottom: 5px;
-         padding-top: 0px;
-     }
-     .navbar-brand {
-	max-width: 260px;
-}
- }
 @media screen and (max-width: 568px) {
-.navbar-brand {
-	max-width: 260px;
-}
+  .navbar-brand {
+    max-width: 260px;
+  }
 }
 
 .navbar-fixed-top {
-    border-width: 0 0 0px;
-    background-color: #FFF;
-    min-height: 90px;
+  border-width: 0 0 0px;
+  background-color: #fff;
+  min-height: 90px;
 }
 .nomargin {
-    margin: 0px -15px;
+  margin: 0px -15px;
 }
 .mission {
-    background-color: #005baa;
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    padding: 8px 10px;
-    position: relative;
-    z-index: 400;
-
+  background-color: #005baa;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 10px;
+  position: relative;
+  z-index: 400;
 }
 h1 {
-    font-size: 1.8em;
-    color: #005baa; 
-    text-transform: uppercase;
-    border-bottom: 1px dotted #d9d9d9;
-    padding-bottom: 8px;
-    padding: 8px 0px;
+  font-size: 1.8em;
+  color: #005baa;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #d9d9d9;
+  padding-bottom: 8px;
+  padding: 8px 0px;
 }
 h3 {
-    font-size: 1.1em;
-    color: #005baa; 
-    padding-bottom: 8px;
-    font-weight: 700;
+  font-size: 1.1em;
+  color: #005baa;
+  padding-bottom: 8px;
+  font-weight: 700;
 }
 .about {
-    margin-top: 20px;
-    background: url('../images/depot.jpg')
+  margin-top: 20px;
+  background: url("../images/depot.jpg");
 }
 .blockholder {
-    border: 1px solid #005baa;
-    margin: 30px 30px;
-    background-color: #d9d9d9;
+  border: 1px solid #005baa;
+  margin: 30px 30px;
+  background-color: #d9d9d9;
 }
 .col-md-4.abox {
-    padding: 0px;
+  padding: 0px;
 }
 .aintro {
-    background-color: #005baa;
-    color: #fff;
-    padding: 12px 20px;
-    font-weight: 700;
+  background-color: #005baa;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: 700;
 }
 .ainfo {
-    background-color: #d9d9d9;
-    padding: 12px 20px;
+  background-color: #d9d9d9;
+  padding: 12px 20px;
 }
 .ico {
-    margin-right: 8px;
-    
+  margin-right: 8px;
 }
 .info {
-    padding: 8px;
+  padding: 8px;
 }
 .row.companies {
-    margin-top: 25px;
-    background-color: #d9d9d9;
-    padding: 15px 0px;
+  margin-top: 25px;
+  background-color: #d9d9d9;
+  padding: 15px 0px;
 }
 .row.footer {
-    margin-bottom: 25px;
-    background-color: #005baa;
-    text-align: center;
-    padding: 15px 0px;
+  margin-bottom: 25px;
+  background-color: #005baa;
+  text-align: center;
+  padding: 15px 0px;
 }
-.col-sm-4.logos, .img-responsive.centre {
-    text-align: center;
+.col-sm-4.logos,
+.img-responsive.centre {
+  text-align: center;
 }
 .navbar-nav > li > a {
-    color: #000;
+  color: #000;
 }
-.nav > li > a:focus, .nav > li > a:hover{
-    background-color:  #d9d9d9;
-    border-bottom: 3px solid #005baa;
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: #d9d9d9;
+  border-bottom: 3px solid #005baa;
 }
 .activea {
-    background-color:  #f2f2f2;
-    border-bottom: 3px solid #005baa;
+  background-color: #f2f2f2;
+  border-bottom: 3px solid #005baa;
 }
 .navbar-toggle {
-    background-color: #005baa;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #fff;
+  background-color: #005baa;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
 }
 .navbar-toggle.collapsed:hover {
-  background-color: #979797; 
-    color: #005baa;
+  background-color: #979797;
+  color: #005baa;
 }
 .callout {
-    background-color: #d9d9d9;
-    color: #005baa;
-    font-size: 1.2em;
-    font-weight: 700;
-    padding: 15px 25px;
-    position:relative;
-    text-align: center;
+  background-color: #d9d9d9;
+  color: #005baa;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 15px 25px;
+  position: relative;
+  text-align: center;
 }
 .topleft {
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    left: 0;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
 .botright {
-    position: absolute;
-    z-index: 100;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
 }
 .decoration {
-    margin-top: 20px;
-    
-        background: url('../images/decoration.jpg');
-         background-repeat: no-repeat;
-        
-    background-position: left bottom;
-    background-size: cover;
-    height: 980px;  
+  margin-top: 20px;
+
+  background: url("../images/decoration.jpg");
+  background-repeat: no-repeat;
+
+  background-position: left bottom;
+  background-size: cover;
+  height: 980px;
 }
 .frmhld {
-    background-color: #005baa;
-    padding-top: 15px;
-    color: #fff;
+  background-color: #005baa;
+  padding-top: 15px;
+  color: #fff;
 }
 .form-control.input-sm {
-	background-color: #699dcb;
-	border: none;
-	border-radius: 0;
+  background-color: #699dcb;
+  border: none;
+  border-radius: 0;
 }
 .form-control {
-    color: #fff;
+  color: #fff;
 }
 .control-label.col-md-4 {
-    font-weight:500;
+  font-weight: 500;
 }
 .map {
-    border: 1px solid #005baa;
+  border: 1px solid #005baa;
 }
