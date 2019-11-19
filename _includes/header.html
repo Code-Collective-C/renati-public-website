@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/renati.css">
+
+</head>
+
+<body>
+    {% include nav.htm %}
+    <div class="container">
+
+        <div class="banner nomargin">
+            <div class="watermark"><img class="swirl" src="/images/watermark.png" alt="" /></div>
+            <img class="img-responsive" src="/images/banner.jpg" alt="" />
+            {% if page.url == "/" %}<div class="mission ">{{ mission }}</div>{% endif %}
+        </div>
