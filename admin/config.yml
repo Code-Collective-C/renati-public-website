@@ -6,17 +6,17 @@ collections:
     name: "website-content"
     editor:
       preview: false
-    files:
-      - label: "Home page"
-        name: "home-page"
-        file: "index.html"
-        fields:
-          - { label: "Mission", name: "mission", widget: "string" }
-          - { label: "Intro", name: "intro", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "hidden" }
-      - label: "About Us"
-        name: "about-us-page"
-        file: "about.html"
-        fields:
-          - { label: "The Future", name: "the-future", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "hidden" }
+    # files:
+    #   - label: "Home page"
+    #     name: "home-page"
+    #     file: "index.html"
+    #     fields:
+    #       - { label: "Mission", name: "mission", widget: "string" }
+    #       - { label: "Intro", name: "intro", widget: "markdown" }
+    #       - { label: "Body", name: "body", widget: "hidden" }
+    #   - label: "About Us"
+    #     name: "about-us-page"
+    #     file: "about.html"
+    #     fields:
+    #       - { label: "The Future", name: "the-future", widget: "markdown" }
+    #       - { label: "Body", name: "body", widget: "hidden" }
