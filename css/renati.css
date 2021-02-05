@@ -11,13 +11,17 @@ body {
   top: 0;
   right: 0;
 }
+
+.swirl {
+  height: 380px;
+}
+
 .col-sm-3.logos {
   text-align: center;
 }
 @media screen and (max-width: 1200px) {
   .swirl {
     max-width: 500px;
-    height: 380px;
   }
 }
 @media screen and (max-width: 990px) {
