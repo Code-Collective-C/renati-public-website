@@ -16,6 +16,21 @@ body {
   height: 380px;
 }
 
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 .col-sm-3.logos {
   text-align: center;
 }
