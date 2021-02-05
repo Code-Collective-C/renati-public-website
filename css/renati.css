@@ -17,6 +17,7 @@ body {
 @media screen and (max-width: 1200px) {
   .swirl {
     max-width: 500px;
+    height: 380px;
   }
 }
 @media screen and (max-width: 990px) {
@@ -194,4 +195,15 @@ h3 {
 }
 .map {
   border: 1px solid #005baa;
+}
+
+#welcomeMessage{
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
+
+#welcomeMessage h1{
+  text-align: center;
 }
