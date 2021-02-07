@@ -1,35 +1,4 @@
 {% include header.html, title: "Renati Group - About" %}
-<script>
-    window.onload = function () {
-    var ImageMap = function (map) {
-            var n,
-                areas = map.getElementsByTagName('area'),
-                len = areas.length,
-                coords = [],
-                previousWidth = 940;
-            for (n = 0; n < len; n++) {
-                coords[n] = areas[n].coords.split(',');
-            }
-            this.resize = function () {
-                var n, m, clen,
-                    x = document.body.clientWidth / previousWidth;
-                for (n = 0; n < len; n++) {
-                    clen = coords[n].length;
-                    for (m = 0; m < clen; m++) {
-                        coords[n][m] *= x;
-                    }
-                    areas[n].coords = coords[n].join(',');
-                }
-                previousWidth = document.body.clientWidth;
-                return true;
-            };
-            window.onresize = this.resize;
-        },
-        imageMap = new ImageMap(document.getElementById('map_ID'));
-    imageMap.resize();
-}
-</script>
-
 <div class="row">
     <div class="container">
         <div style="padding-top: 50px">
@@ -42,7 +11,7 @@
                 respective fields.</p>
             <p>With a combined annual volume of over 350 million litres, the Renati Group has established itself as a
                 leader in the petroleum industry.</p>
-            <img class="img-responsive" src="/images/timeline.png" alt="Timeline" ID="map_ID" usemap="#timelineMap" />
+            <img class="img-responsive" src="/images/timeline.png" alt="Timeline" usemap="#timelineMap" />
             <map name="timelineMap">
                 <area target="" alt="Nito Energy" title="Nito Energy" href="https://nito.co.za/" coords="115,150,70"
                     shape="circle">
@@ -52,7 +21,7 @@
                     coords="397,150,70" shape="circle">
                 <area target="" alt="Renati Group" title="Renati Group" href="https://renatigroup.co.za/"
                     coords="539,150,70" shape="circle">
-                <area target="" alt="Bauzer" title="Bauzer" href="https://www.bauzer.co.za/" coords="681,150,70"
+                <area target="" alt="Bauzer" title="Bauzer" href="https://www.bauzer.co.za/" coords="681,150,105"
                     shape="circle">
                 <area target="" alt="Renati Tech" title="Renati Tech" href="https://renati.tech/" coords="832,150,70"
                     shape="circle">
