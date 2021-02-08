@@ -211,3 +211,30 @@ h3 {
 #welcomeMessage h1{
   text-align: center;
 }
+
+.groupCompanyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.groupCompanyGrid > div {
+  background: black;
+  padding: 1rem;
+  position: relative;
+}
+
+.groupCompanyGrid > div ::before{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.groupCompanyGrid > div img{
+  position: absolute;
+  max-width: 100%;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
