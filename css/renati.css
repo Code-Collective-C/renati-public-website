@@ -216,6 +216,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
   grid-auto-rows: 1fr;
+  padding:10px;
 }
 
 .groupCompanyGrid::before {
@@ -229,11 +230,4 @@ h3 {
 .groupCompanyGrid > *:first-child {
   grid-row: 1 / 1;
   grid-column: 1 / 1;
-}
-
-/* Just to make the grid visible */
-
-.groupCompanyGrid > * {
-  background: rgba(0,0,0,0.1);
-  border: 1px white solid;
 }
