@@ -232,7 +232,7 @@ h3 {
   grid-column: 1 / 1;
 }
 
-.groupCompanyGrid > img{
+.groupCompanyGrid img{
   width: 264px;
   height: 264px;
   background: #00000080 0% 0% no-repeat padding-box;
