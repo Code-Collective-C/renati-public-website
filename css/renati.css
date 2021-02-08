@@ -214,27 +214,26 @@ h3 {
 
 .groupCompanyGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-auto-rows: 1fr;
 }
 
-.groupCompanyGrid > div {
-  background: black;
-  padding: 1rem;
-  position: relative;
-}
-
-.groupCompanyGrid > div ::before{
-  content: "";
-  display: block;
+.groupCompanyGrid::before {
+  content: '';
+  width: 0;
   padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
 }
 
-.groupCompanyGrid > div img{
-  position: absolute;
-  max-width: 100%;
+.groupCompanyGrid > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* Just to make the grid visible */
+
+.groupCompanyGrid > * {
+  background: rgba(0,0,0,0.1);
+  border: 1px white solid;
 }
