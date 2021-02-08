@@ -236,6 +236,10 @@ h3 {
   opacity: 1
 }
 
+.groupCompanyGrid:hover .groupCompanyOverlay{
+  opacity: 1;
+}
+
 .groupCompanyOverlayText{
   color:white;
   width: 264px;
