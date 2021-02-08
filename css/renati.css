@@ -238,8 +238,8 @@ h3 {
 
 .groupCompanyOverlayText{
   color:white;
-  width: 256px;
-  height: 256px;
+  width: 264px;
+  height: 264px;
   text-align: center;
   position: absolute;
   padding-top: 105px;
@@ -250,8 +250,8 @@ h3 {
 .groupCompanyOverlay{
   background-color:black;
   opacity: 0.2;
-  width: 260px;
-  height: 260px;
+  width: 264px;
+  height: 264px;
   position: absolute;
   margin: 4px;
 }
