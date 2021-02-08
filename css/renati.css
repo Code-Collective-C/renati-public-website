@@ -244,6 +244,7 @@ h3 {
   position: absolute;
   padding-top: 105px;
   font: normal normal bold 26px/54px Helvetica;
+  margin: 4px;
 }
 
 .groupCompanyOverlay{
@@ -252,4 +253,5 @@ h3 {
   width: 260px;
   height: 260px;
   position: absolute;
+  margin: 4px;
 }
