@@ -236,8 +236,10 @@ h3 {
   opacity: 1
 }
 
-.groupCompanyGrid:hover .groupCompanyOverlay{
-  opacity: 1;
+.groupCompanyItem{
+  position:relative;
+  height: 264px;
+  width: 26px;
 }
 
 .groupCompanyOverlayText{
@@ -258,4 +260,32 @@ h3 {
   height: 264px;
   position: absolute;
   margin: 4px;
+}
+
+#gcDivTruckFuelNet{
+  background-color: #F37321;
+}
+
+#gcDivNitoEnergy{
+  background-color: #B2C735;
+}
+
+#gcDivCodeCollective{
+  background-color: #28BCD6;
+}
+
+#gcDivRenatiSoftware{
+  background-color: #005BAA;
+}
+
+#gcDivRenatiTech{
+  background-color: #903B7B;
+}
+
+#gcDivRenatiExchange{
+  background-color: #F37321; 
+}
+
+#gcDivRenatiCapital{
+  background-color: #B2C735;
 }
