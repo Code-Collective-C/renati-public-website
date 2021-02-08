@@ -262,6 +262,11 @@ h3 {
   margin: 4px;
 }
 
+.groupCompanyDiv{
+  height: 264px;
+  width: 264px;
+}
+
 #gcDivTruckFuelNet{
   background-color: #F37321;
 }
